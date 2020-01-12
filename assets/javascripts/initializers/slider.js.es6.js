@@ -1,4 +1,4 @@
-import slider from '../plugin/slick.min.js.es6'
+import slider from '../plugin/slick'
 
 export default {
   name: 'slider-banner',
