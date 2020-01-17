@@ -1,0 +1,80 @@
+@import "slick";
+
+// custom slick style
+.banner-slick {
+  position: relative;
+
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    border: black 1px solid;
+    margin: 0;
+
+    li,button {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    button {
+      font-size: 0;
+      line-height: 0;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 100%;
+      border: none;
+      outline: none;
+      opacity: .5;
+      background: red;
+    }
+    .slick-active button{
+      opacity: 1;
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0;
+    line-height: 0;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: red;
+    padding: 6px;
+    border-radius: 50%;
+    z-index: 1;
+      svg {
+      width: 20px;
+      height: 20px;
+      fill: #fff;
+      }
+  }
+  .slick-next {
+      right: 0px;
+    }
+  .slick-prev {
+      left: 0px;
+    }
+
+}
+
+
+
+
+.banner-slick h3 {
+  color: red;
+}
