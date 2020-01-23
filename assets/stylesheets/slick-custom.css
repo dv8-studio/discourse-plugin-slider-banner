@@ -1,0 +1,9 @@
+@import 'slick.css';
+
+.banner-slick div {
+  border: red;
+}
+
+.banner-slick h3 {
+  color: red;
+}

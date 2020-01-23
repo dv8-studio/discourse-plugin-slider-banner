@@ -1,0 +1,90 @@
+@import "slick";
+
+// custom slick style
+.banner-slick {
+  position: relative;
+
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0px;
+
+    li,button {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    button {
+      font-size: 0;
+      line-height: 0;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 0px 3px;
+      padding: inherit;
+      cursor: pointer;
+      border-radius: 100%;
+      border: none;
+      outline: none;
+      opacity: .5;
+      background: #fff;
+      transition: .2s;
+      box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .slick-active button {
+      opacity: 1;
+    }
+
+  }
+
+  img {
+      object-fit: cover;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+
+      svg {
+        width: 23px;
+        height: 23px;
+        transition: .2s;
+        fill: rgba(255,255,255,0.8);
+        -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
+        filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.3));
+        &:hover {
+          fill: rgba(255,255,255,1);
+          -webkit-filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.3));
+         }
+      }
+  }
+
+  .slick-next { right: 5px; }
+  .slick-prev { left: 5px; }
+
+}
+
