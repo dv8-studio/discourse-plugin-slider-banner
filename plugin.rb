@@ -8,3 +8,4 @@ register_asset "stylesheets/slick-custom.scss"
 register_asset "javascripts/plugin/slick.js"
 
 
+enabled_site_setting :slider_banner_enabled
