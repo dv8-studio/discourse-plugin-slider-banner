@@ -6,7 +6,7 @@
 
 
 
-![discourse-plugin-slider-banner](https://i.imgur.com/cqNs4NM.png)
+![discourse-plugin-slider-banner](https://i.imgur.com/Ax7hop8.png)
 
 
 ## How to use
