@@ -11,7 +11,7 @@ export default {
       dots: true,
       adaptiveHeight: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 9000,
       prevArrow: '<span class="slick-prev">'+left_icon+'</span>',
       nextArrow: '<span class="slick-next">'+right_icon+'</span>',
     });
