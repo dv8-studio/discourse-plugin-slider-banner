@@ -18,7 +18,7 @@
 
 ### HTML 
 slick HTML 需要加入 class 必需要使用 `.js-banner-slick` `.banner-slick` 。
-```
+```html
 <div class="js-banner-slick banner-slick">
   <div>item</div>
   <div>item</div>
@@ -35,7 +35,7 @@ slick HTML 需要加入 class 必需要使用 `.js-banner-slick` `.banner-slick`
 
 **slider.js.es6**
 
-```
+```javascript
 export default {
   name: 'slider-banner',
   initialize() {
@@ -72,4 +72,4 @@ export default {
 
 ---
 
-此 Plugin 使用於 [濡沫 discourse](https://community.lezismore.org/) 上。
+此 Plugin 使用於 [濡沫論壇](https://community.lezismore.org/) 上。
