@@ -6,7 +6,7 @@ export default {
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
         if (mutation.addedNodes && mutation.addedNodes.length > 0) {
-          const hasClass = [].some.call(mutation.addedNodes, (el) => el.classList && el.classList.contains('js-banner-slick'))
+          const hasClass = [].filter.call(mutation.addedNodes, (el) => el.classList && el.classList.contains('js-banner-slick'))[0]
           if (hasClass) {
             $(hasClass).slick({
               infinite: true,
