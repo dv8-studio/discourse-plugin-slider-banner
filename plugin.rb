@@ -6,6 +6,7 @@
 
 register_asset "stylesheets/slick-custom.scss"
 register_asset "javascripts/plugin/slick.js"
+register_asset "javascripts/plugin/jquery.initialize.js"
 
 
 enabled_site_setting :slider_banner_enabled
