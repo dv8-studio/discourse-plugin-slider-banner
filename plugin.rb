@@ -1,4 +1,4 @@
-# name: slider-banner
+# name: discourse-plugin-slider-banner
 # about: Discourse slider banner
 # version: 0.0.3
 # authors: purple1007, Etheroit
